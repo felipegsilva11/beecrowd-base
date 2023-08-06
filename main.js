@@ -17,7 +17,7 @@ const solveProblem = async () =>  {
     const {problem} = await import (`./problems/${problemNumber}.js`)
     problem(input);
 
-}
+ }
 
 getProblem()
 document.getElementById('solve').addEventListener('click', solveProblem)
